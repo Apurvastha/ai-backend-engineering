@@ -1,0 +1,52 @@
+# Virtual Environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Pyright
+.pyright/
+
+# Environment files
+.env
+.env.*
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI/Uvicorn temporary files
+*.pid
