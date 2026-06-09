@@ -4,7 +4,6 @@ from models import users_db, products_db
 
 app = FastAPI()
 
-
 @app.post('/users', response_model=UserResponse)
 def create_user(user: UserCreate):
     new_user = {
@@ -14,7 +13,6 @@ def create_user(user: UserCreate):
     }
     users_db.append(new_user)
     return new_user
-
 
 @app.post('/products')
 def create_product(product: ProductCreate):
@@ -26,3 +24,11 @@ def create_product(product: ProductCreate):
     }
     products_db.append(new_product)
     return new_product
+
+@app.get("/users")
+def get_users():
+    return users_db
+
+@app.get("/products")
+def get_products():
+    return products_db

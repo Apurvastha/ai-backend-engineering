@@ -1,242 +1,280 @@
 # AI Backend Engineering Journey 🚀
 
-A job-focused journey to become an AI Backend Engineer by building production-ready systems with FastAPI, PostgreSQL, Docker, RAG, Agents, MCP, and modern AI tooling.
+A 60-day journey to become an AI Backend Engineer by building a production-ready AI platform using FastAPI, PostgreSQL, Redis, Docker, RAG, MCP, and Agent Systems.
 
-This repository documents my learning, projects, and progress as I build real-world backend and AI applications.
-
----
-
-## Goal
-
-Become proficient in:
-
-- FastAPI
-- Backend Architecture
-- PostgreSQL
-- Authentication & Authorization
-- Docker
-- LLM APIs
-- Embeddings
-- Vector Databases
-- RAG Systems
-- MCP Servers
-- AI Agents
-- Production Deployment
-
-while building a portfolio of deployable projects.
+The goal is not only to learn technologies but to understand backend architecture, AI system design, scalability, and production engineering practices used in modern software companies.
 
 ---
 
-# Roadmap
+## Target Role
+
+AI Backend Engineer
+
+Core focus areas:
+
+* Backend Engineering
+* API Design
+* Database Design
+* Authentication & Authorization
+* AI Integration
+* Retrieval-Augmented Generation (RAG)
+* MCP Servers
+* Agent Systems
+* Production Deployment
+
+---
+
+## Core Tech Stack
+
+### Backend
+
+* Python
+* FastAPI
+* PostgreSQL
+* SQLAlchemy
+* Alembic
+
+### Infrastructure
+
+* Docker
+* Docker Compose
+* Redis
+* GitHub Actions
+
+### AI
+
+* OpenAI API
+* Embeddings
+* Vector Search
+* RAG
+* MCP
+* Agents
+
+---
+
+## Main Project
+
+Throughout this journey, I will continuously evolve a single application:
+
+### AI Knowledge Platform
+
+Features added incrementally:
+
+* FastAPI API Layer
+* PostgreSQL Persistence
+* Authentication & Authorization
+* Redis Caching
+* AI Chat
+* Embedding Search
+* RAG Pipeline
+* MCP Tool Integration
+* Agent Workflows
+* Dockerized Deployment
+* Monitoring & Observability
+
+This project serves as the capstone application and portfolio project for the entire journey.
+
+---
+
+# Learning Roadmap
 
 ## Phase 1: FastAPI & Backend Foundations
 
-### Day 1: Project Setup & FastAPI Basics
-- [x] Create project structure
-- [x] Setup virtual environment
-- [x] Install FastAPI and Uvicorn
-- [x] Create first FastAPI application
-- [x] Create health check endpoint
-- [x] Create echo endpoint
-- [x] Learn request → validation → response lifecycle
-- [x] Setup Git repository
-- [x] Add .gitignore
+### Week 1
 
-### Day 2: API Design Fundamentals
-- [x] Path Parameters
-- [x] Query Parameters
-- [ ] Route matching
-- [ ] Automatic validation
-- [ ] API design principles
-- [ ] Practice exercises
+* FastAPI Fundamentals
+* Request Lifecycle
+* API Design
+* Pydantic Validation
+* CRUD Operations
+* Dependency Injection
+* Service Layer Pattern
 
-### Day 3: Request Bodies & Pydantic
-- [ ] Request models
-- [ ] Response models
-- [ ] Validation rules
-- [ ] Nested schemas
+### Project
 
-### Day 4: CRUD Operations
-- [ ] Create task
-- [ ] Read tasks
-- [ ] Update task
-- [ ] Delete task
-
-### Day 5: Service Layer Pattern
-- [ ] Business logic separation
-- [ ] Clean architecture basics
-
-### Day 6: Dependency Injection
-- [ ] FastAPI Depends
-- [ ] Reusable dependencies
-
-### Day 7: Week 1 Project
-- [ ] Mini Task Management API
+* Task Management API
 
 ---
 
 ## Phase 2: Databases & Persistence
 
-- [ ] PostgreSQL Fundamentals
-- [ ] SQLAlchemy ORM
-- [ ] Database Sessions
-- [ ] Migrations with Alembic
-- [ ] Relationships
-- [ ] Repository Pattern
+* PostgreSQL Fundamentals
+* SQLAlchemy ORM
+* Database Sessions
+* Relationships
+* Alembic Migrations
+* Repository Pattern
 
 ### Project
-- [ ] Task API with PostgreSQL
+
+* PostgreSQL-Powered Task API
 
 ---
 
 ## Phase 3: Authentication & Security
 
-- [ ] JWT Authentication
-- [ ] Password Hashing
-- [ ] Refresh Tokens
-- [ ] Role-Based Access Control
-- [ ] Protected Routes
+* JWT Authentication
+* Password Hashing
+* Refresh Tokens
+* Role-Based Access Control
+* Protected Routes
 
 ### Project
-- [ ] Auth Service API
+
+* Authentication Service
 
 ---
 
-## Phase 4: AI Integration Fundamentals
+## Phase 4: Redis & Background Processing
 
-- [ ] LLM APIs
-- [ ] Prompt Engineering
-- [ ] Structured Outputs
-- [ ] Function Calling
-- [ ] Error Handling
+* Redis Fundamentals
+* Caching Strategies
+* Rate Limiting
+* Background Jobs
+* Async Processing
 
 ### Project
-- [ ] AI Chat API
+
+* High-Performance Backend Services
 
 ---
 
-## Phase 5: Embeddings & Vector Search
+## Phase 5: AI Backend Fundamentals
 
-- [ ] Embeddings
-- [ ] Similarity Search
-- [ ] Vector Databases
-- [ ] pgvector
+* LLM APIs
+* Prompt Engineering
+* Structured Outputs
+* Function Calling
+* Streaming Responses
+* Error Handling
 
 ### Project
-- [ ] Embedding Search API
+
+* AI Chat Backend
 
 ---
 
-## Phase 6: Retrieval-Augmented Generation (RAG)
+## Phase 6: Embeddings & Vector Search
 
-- [ ] Chunking
-- [ ] Retrieval
-- [ ] Context Injection
-- [ ] Reranking
-- [ ] Evaluation
+* Embeddings
+* Similarity Search
+* pgvector
+* Semantic Retrieval
 
 ### Project
-- [ ] Document QA System
+
+* Embedding Search Service
 
 ---
 
-## Phase 7: MCP & Tool Calling
+## Phase 7: Retrieval-Augmented Generation (RAG)
 
-- [ ] MCP Fundamentals
-- [ ] Tool Definitions
-- [ ] Tool Execution
-- [ ] MCP Server Design
+* Document Processing
+* Chunking
+* Retrieval
+* Context Injection
+* Evaluation
 
 ### Project
-- [ ] MCP Tool Server
+
+* Document Question Answering System
 
 ---
 
-## Phase 8: Agent Systems
+## Phase 8: MCP & Tooling
 
-- [ ] ReAct Pattern
-- [ ] Tool Usage
-- [ ] Agent Memory
-- [ ] Multi-Step Reasoning
+* MCP Fundamentals
+* Tool Definitions
+* MCP Server Architecture
+* Tool Execution
 
 ### Project
-- [ ] Research Agent
+
+* MCP Tool Server
 
 ---
 
-## Phase 9: Production Engineering
+## Phase 9: Agent Systems
 
-- [ ] Docker
-- [ ] Docker Compose
-- [ ] Logging
-- [ ] Monitoring
-- [ ] Background Jobs
-- [ ] Redis
-- [ ] Caching
+* ReAct Pattern
+* Agent Memory
+* Tool Usage
+* Multi-Step Reasoning
+* Workflow Orchestration
 
 ### Project
-- [ ] Production AI Backend
+
+* AI Research Agent
 
 ---
 
-## Phase 10: Interview & Job Preparation
+## Phase 10: Production Engineering
 
-- [ ] Resume Optimization
-- [ ] GitHub Cleanup
-- [ ] Backend Interview Questions
-- [ ] FastAPI Interview Questions
-- [ ] AI Engineering Interview Questions
-- [ ] System Design Basics
+* Docker
+* Docker Compose
+* Logging
+* Monitoring
+* Observability
+* CI/CD
+* Deployment
 
----
+### Project
 
-# Projects
-
-## Completed
-
-- None yet
-
-## In Progress
-
-- FastAPI Core API
-
-## Planned
-
-- Task Management API
-- Authentication Service
-- AI Chat API
-- Embedding Search API
-- Document QA System
-- MCP Server
-- Research Agent
-- Production AI Platform
+* Production AI Platform
 
 ---
 
-# Tech Stack
+## Interview Preparation
 
-### Backend
-- Python
-- FastAPI
-- PostgreSQL
-- SQLAlchemy
+Topics covered throughout the journey:
 
-### AI
-- OpenAI API
-- Embeddings
-- RAG
-- MCP
-- Agents
-
-### DevOps
-- Docker
-- GitHub Actions
-- Redis
+* Python Interviews
+* FastAPI Interviews
+* PostgreSQL Interviews
+* Redis Interviews
+* Backend System Design
+* AI Engineering Interviews
 
 ---
 
-# Progress
+# Progress Tracker
 
-Current Phase: Phase 1 - FastAPI & Backend Foundations
+Current Phase: Phase 1 – FastAPI & Backend Foundations
 
-Completed Days: 2 / 60
+Completed Days:
+
+* [x] Day 1 – FastAPI Fundamentals
+* [ ] Day 2 – API Design & Validation
+* [ ] Day 3 – Request Models & Pydantic
+* [ ] Day 4 – CRUD Operations
+* [ ] Day 5 – Service Layer Pattern
+* [ ] Day 6 – Dependency Injection
+* [ ] Day 7 – Week 1 Project
+
+Progress: 1 / 60 Days
+
+---
+
+## Repository Structure
+
+```text
+fastapi-ai-60-days/
+
+├── day-01_fastapi_intro/
+├── day-02_api_design/
+├── day-03_pydantic/
+├── day-04_crud/
+├── day-05_service_layer/
+├── day-06_dependency_injection/
+│
+├── projects/
+│   ├── task_management_api/
+│   ├── auth_service/
+│   ├── ai_chat_backend/
+│   ├── rag_system/
+│   ├── mcp_server/
+│   └── research_agent/
+│
+└── final_project/
+    └── ai_knowledge_platform/
+```

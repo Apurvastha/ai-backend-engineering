@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.schemas import EchoRequest
+from app.schemas import UserCreate
 
 router = APIRouter()
 
@@ -12,7 +12,7 @@ def health_check():
     }
 
 @router.post('/echo')
-def echo(data: EchoRequest):
+def echo(data: UserCreate):
     return{
         'input': data.text,
         'length': len(data.text),
@@ -45,3 +45,11 @@ def product_list(product_id: int, category:str):
         'product_id':product_id,
         'category': category
     }
+
+@router.post('/users')
+def create_user(user: UserCreate):
+    return{
+        'message': 'User created',
+        'user': user
+    }
+
